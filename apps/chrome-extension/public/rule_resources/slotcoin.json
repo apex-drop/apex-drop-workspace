@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [
+        {
+          "header": "origin",
+          "operation": "set",
+          "value": "https://app.slotcoin.app"
+        },
+        {
+          "header": "referrer",
+          "operation": "set",
+          "value": "https://app.slotcoin.app/"
+        }
+      ]
+    },
+    "condition": {
+      "requestDomains": ["slotcoin.app"]
+    }
+  }
+]

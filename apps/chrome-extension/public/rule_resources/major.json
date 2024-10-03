@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [
+        {
+          "header": "origin",
+          "operation": "set",
+          "value": "https://major.bot"
+        },
+        {
+          "header": "referrer",
+          "operation": "set",
+          "value": "https://major.bot/"
+        }
+      ]
+    },
+    "condition": {
+      "requestDomains": ["major.bot"]
+    }
+  }
+]

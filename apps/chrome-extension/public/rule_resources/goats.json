@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [
+        {
+          "header": "origin",
+          "operation": "set",
+          "value": "https://dev.goatsbot.xyz"
+        },
+        {
+          "header": "referrer",
+          "operation": "set",
+          "value": "https://dev.goatsbot.xyz/"
+        }
+      ]
+    },
+    "condition": {
+      "requestDomains": ["goatsbot.xyz"]
+    }
+  }
+]

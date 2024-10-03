@@ -1,0 +1,30 @@
+{
+  "name": "apex-drop-server-core",
+  "version": "0.0.1",
+  "description": "Server Core",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "unbuild"
+  },
+  "dependencies": {
+    "bufferutil": "^4.0.8",
+    "socket.io": "^4.8.0",
+    "utf-8-validate": "^6.0.4"
+  },
+  "devDependencies": {
+    "unbuild": "^2.0.0"
+  }
+}
